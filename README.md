@@ -1,6 +1,48 @@
 Instagram Challenge
 ===================
 
+User stories
+```
+As a person,
+So that I can use Instagram,
+I would like to sign up, log in, and log out.
+```
+```
+As a user,
+So that I can share my photos,
+I would like to be able to upload photos to Instagram.
+```
+```
+As a user,
+So that I can see what other users are posting,
+I would like to see a timeline of other user photos.
+```
+```
+As a user,
+So that I can see more from one user,
+I would like to be able to view a user profile.
+```
+```
+As a user,
+So that I can keep up with certain other users,
+I would like to be able to follow users.
+```
+```
+As a user,
+So that I can interact with other users,
+I would like to be able to leave comments on photos.
+```
+```
+As a user,
+So that I can change comments,
+I would like to be able to edit or delete comments I have left.
+```
+```
+As a user,
+So that I can keep control over my profile,
+I would like to be able to delete my own photos and comments left on them.
+```
+
 Instructions
 -------
 * Challenge time: Friday, the entire day + the weekend if you need it
