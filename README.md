@@ -14,6 +14,11 @@ I would like to be able to upload photos to Instagram.
 ```
 ```
 As a user,
+So that I can maintain my privacy,
+I would like to be able to choose whether my profile is public.
+```
+```
+As a user,
 So that I can see what other users are posting,
 I would like to see a timeline of other user photos.
 ```

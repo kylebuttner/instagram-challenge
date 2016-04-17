@@ -1,0 +1,9 @@
+- if @photos.any?
+  - @photos.each do |photo|
+    = image_tag photo.image
+    %p= photo.image_file_name
+    %p= photo.caption
+- else
+  %p Go follow someone!
+
+= link_to '', new_photo_path, id: 'upload'
