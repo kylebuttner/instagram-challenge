@@ -7,5 +7,6 @@ feature 'Discover feed' do
   scenario 'User should see all feed of all public images' do
     visit '/discover'
     expect(page).to have_content 'test_image'
+    expect(page).to have_content ''
   end
 end
