@@ -4,7 +4,14 @@
     %p= photo.image_file_name
     %p= photo.caption
     %p= User.find(photo.user_id).username
+    %p Comments
+    %ul
+      - if photo.comments.any?
+        - photo.comments.each do |comment|
+          %li
+            %p= comment.text
+    = link_to 'Leave a comment', new_photo_comment_path(photo)
 - else
   %p Go follow someone!
 
-= link_to '', new_photo_path, id: 'upload'
+= link_to 'Post', new_photo_path

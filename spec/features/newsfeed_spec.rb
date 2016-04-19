@@ -14,15 +14,10 @@ feature 'Newsfeed' do
       sign_up
     end
 
-    scenario 'can upload a caption' do
-      find(:css, 'a#upload').click
-      fill_in 'Caption', with: 'Beautiful photo'
-      click_button 'Upload'
-      expect(page).to have_content 'Beautiful photo'
-    end
-
     scenario 'can upload a photo' do
-      find(:css, 'a#upload').click
+      expect(page).to have_content 'You have signed up successfully'
+      visit photos_path
+      click_link "Post"
       attach_file 'photo[image]', 'spec/asset_specs/smiley.jpg'
       fill_in 'Caption', with: 'Beautiful photo'
       click_button 'Upload'
