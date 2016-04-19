@@ -5,10 +5,11 @@
     %p= photo.caption
     %p= User.find(photo.user_id).username
     %p Comments
-    %ul
-      - if photo.comments.any?
+    - if photo.comments.any?
+      %ul
         - photo.comments.each do |comment|
           %li
+            %p= User.find(comment.user_id).username
             %p= comment.text
     = link_to 'Leave a comment', new_photo_comment_path(photo)
 - else

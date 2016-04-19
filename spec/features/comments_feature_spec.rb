@@ -8,6 +8,7 @@ feature 'Comments' do
   end
 
   scenario 'allows a user to leave a comment using a form' do
+    sign_up
     visit photos_path
     click_link 'Leave a comment'
     fill_in 'Text', with: 'Jealous'
@@ -15,5 +16,8 @@ feature 'Comments' do
 
     expect(current_path).to eq photos_path
     expect(page).to have_content 'Jealous'
+    within("li") do
+      expect(page).to have_content 'test_user'
+    end
   end
 end
