@@ -3,11 +3,13 @@ Instagram Challenge
 
 User stories
 ```
+COMPLETE
 As a person,
 So that I can use Instagram,
 I would like to sign up, log in, and log out.
 ```
 ```
+COMPLETE
 As a user,
 So that I can share my photos,
 I would like to be able to upload photos to Instagram.
@@ -18,6 +20,7 @@ So that I can maintain my privacy,
 I would like to be able to choose whether my profile is public.
 ```
 ```
+COMPLETE
 As a user,
 So that I can see what other users are posting,
 I would like to see a timeline of other user photos.
@@ -33,6 +36,7 @@ So that I can keep up with certain other users,
 I would like to be able to follow users.
 ```
 ```
+COMPLETE
 As a user,
 So that I can interact with other users,
 I would like to be able to leave comments on photos.

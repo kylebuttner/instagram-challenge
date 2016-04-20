@@ -11,6 +11,8 @@
           %li
             %p= User.find(comment.user_id).username
             %p= comment.text
+            = p edit_comment_path(comment)
+            = link_to 'Edit', edit_comment_path(comment)
     = link_to 'Leave a comment', new_photo_comment_path(photo)
 - else
   %p Go follow someone!
